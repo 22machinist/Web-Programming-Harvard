@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+}
+
+$color : red ; 
+
+body {
+    h1 {
+        color: $color;
+    }
+    div {
+        border-style: solid;
+        color: beige;
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+#div1 {
+    div {
+        border-style: none;
+    }
+}

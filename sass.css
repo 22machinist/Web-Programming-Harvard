@@ -1,0 +1,19 @@
+body {
+  background-color: aqua;
+}
+
+body h1 {
+  color: red;
+}
+body div {
+  border-style: solid;
+  color: beige;
+  padding: 20px;
+  margin: 20px;
+}
+
+#div1 div {
+  border-style: none;
+}
+
+/*# sourceMappingURL=sass.css.map */
