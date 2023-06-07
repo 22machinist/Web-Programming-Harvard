@@ -14,3 +14,11 @@ print(names[0])
 print(names[1])
 print(names[2])
 
+coordinateX = 10.0 
+coordinateY = 20.0 
+
+coordinate = (10.0 , 20.0)
+
+#Now we will add some code that will ressembles the coordintaes asked by user 
+
+coordinatez = int(input("Enter coordinate 1 : "))
