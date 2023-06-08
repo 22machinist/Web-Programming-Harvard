@@ -28,3 +28,23 @@ s.remove(3)
 
 # Now we will find the length of set using len() function
 print(f"Length of the given set is {len(s)}")
+
+
+#Now we will see the use of python Dictionaries 
+#Defining the Python Dictionary 
+
+Capitals = {"U.S.A" : "Washington DC" , "India" : "Delhi" , "Russia" : "Moscow" , "UK" : "London" , "France" : "Paris" , "Germany" : "Berlin"}
+
+#Now we will add the new value to the Capitols 
+Capitals["Australia"] = "Canbera"
+
+
+#printing out all the keys of dictionary 
+print(Capitals.keys())
+#printing out all the values of dictionary 
+print(Capitals.values())
+
+#looping in the dictionary 
+
+for info in Capitals :
+    print(Capitals[info])
