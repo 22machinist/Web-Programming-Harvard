@@ -16,3 +16,19 @@ persons.sort(key=f)
 
 #printing out the sorted data 
 print(persons)
+
+#To define the above function we can do the same in different way 
+#Defining the list 
+
+World = [
+    {"name" : "Russia" , "capital" : "Moscow"},
+    {"name" : "USA" , "capital" : "Washington DC"},
+    {"name" : "Germany" , "capital" : "Berlin"},
+    {"name" : "India" , "capital" : "Delhi"},
+    {"name" : "France" , "capital" : "Paris"},
+    {"name" : "UK" , "capital" : "London"}
+]
+
+World.sort(key=lambda World: World["name"])
+
+print(World)
